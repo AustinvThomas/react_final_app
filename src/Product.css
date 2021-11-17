@@ -1,0 +1,36 @@
+.neuEffect{  
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255, 0.5);  
+    border-radius: 40px;  
+    align-items: center;  
+    background-color: white; 
+    height: 120px; 
+    width: 120px;  
+    justify-content: center; 
+    margin-right: 6rem;
+    margin-top: 20px;
+    display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.neuEffect:hover{
+    height: 145px; 
+    width: 145px; 
+    cursor: pointer;
+}
+
+.neuEffect > img{
+    height: 50px;
+    background-color: transparent;
+    padding: 0px;
+    padding-left: 20px;
+    margin-top: 15px;
+    
+}
+.neuEffect > h4{
+    background-color: transparent;
+    margin-top: 2px;
+    color: rgb(49, 189, 245);
+    text-align: center;
+}

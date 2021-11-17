@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+.container_1{
+  margin-bottom: 15px;
+}
+.Column_1{
+  flex:5;
+  box-shadow: 30px 30px 26px rgb(163,177,198,0.4), -9px -9px 16px  rgba(255,255,255, 0.5);  
+}
+.Column_2{
+  flex:2.5;
+  box-shadow: 30px 30px 26px rgb(163,177,198,0.4), -9px -9px 16px  rgba(255,255,255, 0.5);  
+}
+.Column_3{
+  flex:2.5;
+  box-shadow: 30px 30px 26px rgb(163,177,198,0.4), -9px -9px 16px  rgba(255,255,255, 0.5); 
+  
+}
+@media (max-width: 1440px){
+  .flex{
+      flex-direction: column;
+  }
+  .product{
+       justify-content: center;
+  }
+  .Column_1{
+    align-self: center;
+    box-shadow: none;
+  }
+
+}

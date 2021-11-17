@@ -1,0 +1,23 @@
+.third_column{
+    display: grid;
+    place-content: center;
+}
+.first_row{
+    margin-top: 60px;
+}
+.third_column_tittle{
+    margin-bottom: 0px;
+    margin-top: 60px;
+    color: rgb(6, 190, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.third_column_subtittle{
+    margin-top: 0px;
+}
+.progress{
+    display: grid;
+}
+
+

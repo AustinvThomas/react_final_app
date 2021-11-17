@@ -1,0 +1,17 @@
+.productsAvatar{
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.productsAvatar > img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+.productsAvatar > h4{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    
+}

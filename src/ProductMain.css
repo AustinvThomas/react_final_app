@@ -1,0 +1,18 @@
+*{
+    place-content: center;
+  }
+  .product_header{
+    text-align: center;
+  }
+  .product_header > h1{
+    font-weight: 300;
+  
+  }
+  .app_icons{
+    display: flex;
+    place-content: center;
+  }
+  
+  .product_footer{
+    display: flex;
+  }
