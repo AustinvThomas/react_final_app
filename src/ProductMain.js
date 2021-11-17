@@ -10,7 +10,7 @@ import trousers from "./trousers.png"
 import bridalwear from "./bridalwear.png"
 import man from "./man.png"
 import girl from "./girl.png"
-import baby from "./baby.png"
+import baby2 from "./baby2.png"
 import sportswear from "./sportswear.png"
 
 class ProductMain extends PureComponent {
@@ -37,7 +37,7 @@ class ProductMain extends PureComponent {
     
           <div className="product_footer">
             <ProductsAvatar icon = {man} title = "men"/>
-            <ProductsAvatar icon = {baby} title = "kids"/>
+            <ProductsAvatar icon = {baby2} title = "kids"/>
             <ProductsAvatar icon = {girl} title = "women"/>
           </div>
           </div>

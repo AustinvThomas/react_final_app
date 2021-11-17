@@ -21,7 +21,7 @@ export default function Header() {
     }
     return (
         <header className="header">
-       <a className = "button "><HomeIcon fontSize="large"></HomeIcon></a>
+       <button className = "button"><HomeIcon fontSize="large"></HomeIcon></button>
       <UserAvatar userName='User Name' designation='User Designation'/>
        <div id='searchcontainer'> 
             <input id='searchbar' type='search' placeholder='SET A 100% PREREQ FOR GOOD MATCH'></input>
@@ -33,7 +33,7 @@ export default function Header() {
        </Switch>
        <label for='switch1' id='advanced'>ADVANCED</label>
   </div>
-       <a className = "button"><MenuIcon fontSize='large' ></MenuIcon></a>
+       <button className = "button"><MenuIcon fontSize='large' ></MenuIcon></button>
       </header>
     )
 }

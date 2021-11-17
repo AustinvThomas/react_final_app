@@ -5,7 +5,7 @@ function Products(props) {
         <div className = "products">
             <div className="product_buttons_left">
                 <div class="neuEffect">
-                    <img src = {props.icon}/>
+                    <img src = {props.icon} alt=""/>
                     <h4>{props.title}</h4>
                 </div> 
             </div>
