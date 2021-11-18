@@ -17,6 +17,11 @@
   box-shadow: 30px 30px 26px rgb(163,177,198,0.4), -9px -9px 16px  rgba(255,255,255, 0.5); 
   
 }
+@media (max-width:1440px){
+  .tabview{
+    display: flex;
+  }
+}
 @media (max-width: 1440px){
   .flex{
       flex-direction: column;
@@ -25,6 +30,14 @@
        justify-content: center;
   }
   .Column_1{
+    align-self: center;
+    box-shadow: none;
+  }
+  .Column_2{
+    align-self: center;
+    box-shadow: none;
+  }
+  .Column_3{
     align-self: center;
     box-shadow: none;
   }

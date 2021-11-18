@@ -16,7 +16,7 @@ class MainContent extends PureComponent {
                         <label className = "table-cell">
                         <InputTittle title = "Constitution of the company"/>
                         </label>
-                        <input className="SelectOption" type="text"/>
+                        <input className="SelectOption Inputbox" type="text"/>
                     </p>
             
                     <p className= "input_align">
@@ -55,7 +55,7 @@ class MainContent extends PureComponent {
                         <label className = "table-cell">
                         <InputTittle title = "Constitution of the company"/>
                         </label>
-                        <input className="SelectOption" type="text"/>
+                        <input className="Inputbox SelectOption" type="text"/>
                     </p>
             
                     <p className= "input_align">

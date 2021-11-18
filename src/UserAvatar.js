@@ -6,7 +6,7 @@ import './UserAvatar.css'
 function UserAvatar(props) {
     return (
         <div id='UserCard'>
-        <Avatar sx={{ width: 50, height: 50 }}>{props.image}</Avatar>
+        <Avatar sx={{ width: 40, height: 40 }}>{props.image}</Avatar>
         <div id = 'userdetails'>
             <div className='text bold'>
             {props.userName}
